@@ -177,8 +177,8 @@
       "description": "Previewing Jupyter notebook without a Jupyter server",
       "tags": [
         "notebook",
-        "imjoy",
-        "jupyter"
+        "jupyter",
+        "imjoy"
       ],
       "documentation": null,
       "covers": [],
@@ -1416,7 +1416,7 @@
           "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Deep-STORM_2D_ZeroCostDL4Mic.ipynb"
         }
       ],
-      "documentation": "https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki",
+      "documentation": "https://doi.org/10.5281/zenodo.3941884",
       "tags": [
         "labelling",
         "Deep-STORM",
