@@ -177,8 +177,8 @@
       "description": "Previewing Jupyter notebook without a Jupyter server",
       "tags": [
         "imjoy",
-        "notebook",
-        "jupyter"
+        "jupyter",
+        "notebook"
       ],
       "documentation": null,
       "covers": [],
@@ -373,8 +373,8 @@
       ],
       "documentation": "https://doi.org/10.5281/zenodo.3941908",
       "tags": [
-        "YOLOv2",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "YOLOv2"
       ],
       "source": "https://doi.org/10.5281/zenodo.3941908",
       "covers": [
@@ -408,8 +408,8 @@
         }
       ],
       "tags": [
-        "imjoy",
-        "visualization"
+        "visualization",
+        "imjoy"
       ]
     },
     {
@@ -872,7 +872,9 @@
         "fiji",
         "unet2d",
         "n2v",
-        "denoising"
+        "fiji",
+        "denoising",
+        "unet2d"
       ],
       "license": "BSD 3",
       "format_version": "0.1.0"
@@ -916,7 +918,7 @@
         "fnet",
         "labelling",
         "3D",
-        "ZeroCostDL4Mic"
+        "labelling"
       ],
       "source": "https://doi.org/10.5281/zenodo.3748967",
       "covers": [
@@ -950,7 +952,7 @@
         "fnet",
         "labelling",
         "3D",
-        "ZeroCostDL4Mic"
+        "labelling"
       ],
       "source": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/fnet_ZeroCostDL4Mic.ipynb",
       "git_repo": "https://github.com/HenriquesLab/ZeroCostDL4Mic",
@@ -1103,6 +1105,8 @@
         "resnet-34",
         "resnet-50",
         "hpa",
+        "inception-v3",
+        "densenet-121",
         "classification",
         "inception-v3",
         "densenet-121"
@@ -1139,6 +1143,8 @@
         "ibn-densenet-121",
         "se-resnext-50",
         "classification",
+        "ibn-densenet-121",
+        "xception",
         "opencv",
         "densenet-121"
       ],
@@ -1270,7 +1276,8 @@
       "documentation": "HPAShuffleNetV2.md",
       "tags": [
         "hpa",
-        "tensorflow.js",
+        "shufflenet",
+        "imjoy",
         "classification",
         "shufflenet",
         "imjoy"
@@ -1502,10 +1509,10 @@
       ],
       "documentation": "https://doi.org/10.5281/zenodo.3713337",
       "tags": [
+        "ZeroCostDL4Mic",
         "3D",
-        "CARE",
         "denoising",
-        "ZeroCostDL4Mic"
+        "CARE"
       ],
       "source": "https://doi.org/10.5281/zenodo.3713337",
       "covers": [
@@ -1536,10 +1543,10 @@
       ],
       "documentation": "https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki",
       "tags": [
+        "ZeroCostDL4Mic",
         "3D",
-        "CARE",
         "denoising",
-        "ZeroCostDL4Mic"
+        "CARE"
       ],
       "source": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/CARE_3D_ZeroCostDL4Mic.ipynb",
       "git_repo": "https://github.com/HenriquesLab/ZeroCostDL4Mic",
