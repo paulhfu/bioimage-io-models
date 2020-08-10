@@ -176,8 +176,8 @@
       "api_version": "0.2.3",
       "description": "Previewing Jupyter notebook without a Jupyter server",
       "tags": [
-        "imjoy",
         "jupyter",
+        "imjoy",
         "notebook"
       ],
       "documentation": null,
@@ -510,6 +510,7 @@
         "pytorch",
         "vasculature",
         "sga2",
+        "ilastik",
         "unet2d",
         "brain",
         "ilastik",
@@ -616,6 +617,7 @@
         "pytorch",
         "vasculature",
         "sga2",
+        "ilastik",
         "unet2d",
         "brain",
         "ilastik",
@@ -872,9 +874,9 @@
         "fiji",
         "unet2d",
         "n2v",
+        "unet2d",
         "fiji",
-        "denoising",
-        "unet2d"
+        "denoising"
       ],
       "license": "BSD 3",
       "format_version": "0.1.0"
@@ -1107,6 +1109,7 @@
         "hpa",
         "inception-v3",
         "densenet-121",
+        "inception-v3",
         "classification",
         "inception-v3",
         "densenet-121"
@@ -1143,7 +1146,6 @@
         "ibn-densenet-121",
         "se-resnext-50",
         "classification",
-        "ibn-densenet-121",
         "xception",
         "opencv",
         "densenet-121"
@@ -1275,9 +1277,9 @@
       ],
       "documentation": "HPAShuffleNetV2.md",
       "tags": [
-        "hpa",
         "shufflenet",
-        "imjoy",
+        "tensorflow.js",
+        "hpa",
         "classification",
         "shufflenet",
         "imjoy"
@@ -1333,8 +1335,8 @@
       "tags": [
         "deepimagej",
         "segmentation",
-        "extracellular vesicles",
-        "TEM"
+        "TEM",
+        "extracellular vesicles"
       ],
       "license": "BSD 3",
       "format_version": "0.2.0",
@@ -1509,10 +1511,10 @@
       ],
       "documentation": "https://doi.org/10.5281/zenodo.3713337",
       "tags": [
-        "ZeroCostDL4Mic",
         "3D",
-        "denoising",
-        "CARE"
+        "ZeroCostDL4Mic",
+        "CARE",
+        "denoising"
       ],
       "source": "https://doi.org/10.5281/zenodo.3713337",
       "covers": [
@@ -1543,10 +1545,10 @@
       ],
       "documentation": "https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki",
       "tags": [
-        "ZeroCostDL4Mic",
         "3D",
-        "denoising",
-        "CARE"
+        "ZeroCostDL4Mic",
+        "CARE",
+        "denoising"
       ],
       "source": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/CARE_3D_ZeroCostDL4Mic.ipynb",
       "git_repo": "https://github.com/HenriquesLab/ZeroCostDL4Mic",
@@ -1685,6 +1687,36 @@
         "ilastik_raw.png",
         "ilastik_pred.png"
       ]
+    },
+    {
+      "type": "model",
+      "root_url": "https://raw.githubusercontent.com/paulhfu/pytorch-3dunet/bioimage-io-3d-nuclei/bioimage-io/UNet3DMouseCorticalCells.model",
+      "id": "UNet3DMouseBrainNucleiFgBgProbs",
+      "source": "pytorch3dunet.unet3d.model.UNet3D",
+      "links": [
+        "Ilastik"
+      ],
+      "download_url": "https://github.com/paulhfu/pytorch-3dunet/archive/1.2.11.zip",
+      "name": "3D UNet Mouse Brain Histone-GFP Nuclei",
+      "description": "A 3d U-Net trained to predict nuclei and inner nuclei boundaries of in-vivo 2 photon z-stacks of Histone-GFP labelled cell nuclei in mouse brains.",
+      "cite": [
+        {
+          "text": "Livia  Asan et al. Grey matter volume changes and corresponding cellular metrics identified in a longitudinal in vivo imaging approach. BioRxiv preprint.",
+          "doi": "https://doi.org/10.1101/559765"
+        }
+      ],
+      "documentation": "README.md",
+      "tags": [
+        "pytorch",
+        "unet3d",
+        "segmentation",
+        "ilastik",
+        "nuclei boundary",
+        "cell nuclei"
+      ],
+      "license": "MIT",
+      "format_version": "0.1.0",
+      "covers": []
     },
     {
       "type": "model",
