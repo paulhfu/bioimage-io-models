@@ -176,9 +176,9 @@
       "api_version": "0.2.3",
       "description": "Previewing Jupyter notebook without a Jupyter server",
       "tags": [
-        "jupyter",
         "imjoy",
-        "notebook"
+        "notebook",
+        "jupyter"
       ],
       "documentation": null,
       "covers": [],
@@ -510,7 +510,7 @@
         "pytorch",
         "vasculature",
         "sga2",
-        "ilastik",
+        "hbp",
         "unet2d",
         "brain",
         "ilastik",
@@ -617,7 +617,7 @@
         "pytorch",
         "vasculature",
         "sga2",
-        "ilastik",
+        "hbp",
         "unet2d",
         "brain",
         "ilastik",
@@ -876,6 +876,7 @@
         "n2v",
         "unet2d",
         "fiji",
+        "n2v",
         "denoising"
       ],
       "license": "BSD 3",
@@ -1013,6 +1014,7 @@
       "tags": [
         "inception-v4",
         "xception",
+        "inception-v3",
         "multilayer-perceptron",
         "hpa",
         "classification",
@@ -1208,6 +1210,7 @@
         "lightgbm",
         "inception-v4",
         "xception",
+        "se-resnext-50",
         "hpa",
         "se-resnext-50",
         "classification"
@@ -1278,8 +1281,6 @@
       "documentation": "HPAShuffleNetV2.md",
       "tags": [
         "shufflenet",
-        "tensorflow.js",
-        "hpa",
         "classification",
         "shufflenet",
         "imjoy"
@@ -1334,9 +1335,9 @@
       ],
       "tags": [
         "deepimagej",
+        "extracellular vesicles",
         "segmentation",
-        "TEM",
-        "extracellular vesicles"
+        "TEM"
       ],
       "license": "BSD 3",
       "format_version": "0.2.0",
@@ -1454,8 +1455,8 @@
       ],
       "documentation": "https://doi.org/10.5281/zenodo.3941884",
       "tags": [
-        "ZeroCostDL4Mic",
-        "CycleGAN"
+        "CycleGAN",
+        "ZeroCostDL4Mic"
       ],
       "source": "https://doi.org/10.5281/zenodo.3941884",
       "covers": [
@@ -1673,6 +1674,7 @@
       ],
       "documentation": "README.md",
       "tags": [
+        "EM",
         "pytorch",
         "cell membrane",
         "segmentation",
@@ -1691,12 +1693,12 @@
     {
       "type": "model",
       "root_url": "https://raw.githubusercontent.com/paulhfu/pytorch-3dunet/bioimage-io-3d-nuclei/bioimage-io/UNet3DMouseCorticalCells.model",
-      "id": "UNet3DMouseBrainNucleiFgBgProbs",
+      "id": "UNet3DMouseBrainNucleiFgBgProb",
       "source": "pytorch3dunet.unet3d.model.UNet3D",
       "links": [
         "Ilastik"
       ],
-      "download_url": "https://github.com/paulhfu/pytorch-3dunet/archive/1.2.11.zip",
+      "download_url": "https://github.com/paulhfu/pytorch-3dunet/releases/download/1.2.11/3DUnetMouseBrainHistoneGFPNuclei.model.zip",
       "name": "3D UNet Mouse Brain Histone-GFP Nuclei",
       "description": "A 3d U-Net trained to predict nuclei and inner nuclei boundaries of in-vivo 2 photon z-stacks of Histone-GFP labelled cell nuclei in mouse brains.",
       "cite": [
@@ -1708,11 +1710,11 @@
       "documentation": "README.md",
       "tags": [
         "pytorch",
-        "unet3d",
         "segmentation",
-        "ilastik",
         "nuclei boundary",
-        "cell nuclei"
+        "unet3d",
+        "cell nuclei",
+        "ilastik"
       ],
       "license": "MIT",
       "format_version": "0.1.0",
